@@ -50,34 +50,46 @@ footer {
 	width:900px;
 	margin-top: auto;
 	display:inline-block;
+	width: 1200px;
 }
 
+#copyright {
+	float: left;
+	display: center;
+}
 
+#perks{
+	float: right;
+	margin-left: 30px;
+}
 
 
 
 
 
 #instagram {
-	max-width: 40px;
-	max-height: 40px;
+	max-width: 25px;
+	max-height: 25px;
 	float: left;
+	padding-right: 15px;
 
 	
 }
 
 #facebook {
-	max-width: 40px;
-	max-height: 40px;
+	max-width: 25px;
+	max-height: 25px;
 	float: left;
+	padding-right: 15px;
 
 	
 }
 
 #twitter {
-	max-width: 40px;
-	max-height: 40px;
+	max-width: 25px;
+	max-height: 25px;
 	float: left;
+	padding-right: 15px;
 
 	
 }
