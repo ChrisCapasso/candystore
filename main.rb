@@ -1,27 +1,19 @@
 require 'sinatra'
 require 'mandrill'
 
-get "/"  do
-
+get '/' do
 	erb :home
-
 end
 
-get "/contact" do
-	
+get '/contact' do	
 	erb :contact
-
 end
 
-get "/about_us" do
-	
+get '/about_us' do	
 	erb :about_us
-
 end
 
-get "/product_page" do
-	
+get '/product_page' do
 	erb :product_page
-
 end
 
