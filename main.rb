@@ -24,3 +24,4 @@ get "/product_page" do
 	erb :product_page
 
 end
+
