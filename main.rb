@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'mandrill'
 
-get "/"  do
+get '/'  do
 
 	erb :home
 
