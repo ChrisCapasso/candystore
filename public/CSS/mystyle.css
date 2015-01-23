@@ -130,16 +130,18 @@ footer {
 
 #cycler {
 	position: relative;
-	height: 500px;
-	width: 600px;
-
+	height: 400px;
+	width: 500px;
+	margin: auto;
+	padding: 10px;
 }
 
 #cycler img{
 	position: absolute;
 	z-index: 1;
-	height: 500px;
-	width: 600px;
+	height: 400px;
+	width: 500px;
+	margin: auto;
 }
 
 #cycler img.active{
