@@ -3,7 +3,7 @@ require 'mandrill'
 
 
 get '/'  do
-erb :home
+	erb :home
 end
 
 get '/contact' do	
