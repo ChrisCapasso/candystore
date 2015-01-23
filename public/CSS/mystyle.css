@@ -6,7 +6,6 @@ a {
 body {
   font: 400 20px/1.5  Helvetica, sans-serif;  
 }
-
 nav {
 	margin-top: 30px;
 	padding-top: 10px;
@@ -167,8 +166,8 @@ footer {
 
 #cycler {
 	position: relative;
-	height: 400px;
-	width: 500px;
+	height: 500px;
+	width: 750px;
 	margin: auto;
 	padding: 10px;
 }
@@ -176,8 +175,8 @@ footer {
 #cycler img{
 	position: absolute;
 	z-index: 1;
-	height: 400px;
-	width: 500px;
+	height: 500px;
+	width: 750px;
 	margin: auto;
 }
 
@@ -186,7 +185,7 @@ footer {
 }
 
 .slide-holder {
-	width: 650px;
+	width: 800px;
 	margin: 0 auto;
 }
 
