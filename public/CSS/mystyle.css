@@ -1,99 +1,107 @@
 
 body {
-  font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;
-  color: #2b2b2b;
-  text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+  font: 400 20px/1.5  Helvetica, sans-serif;
+   
 }
-#wrap{
-	width: 100%;
+
+header {
+	text-align: right;
+	margin: 30px 30px 0px 0px;
 }
-.dropdown li {
-	width: 250px;
-	float:left;
-}
+
 
 ul {
-	list-style-type: none;
+  text-align: left;
+  display: inline;
+  /*margin: 0;*/
+  padding: 15px 4px 15px 0;
+  list-style: none;
+  
+
 }
-.nav_item {
-	display: inline-block;
-	margin: 
+ul li {
+  /*font: bold 18px sans-serif;*/
+  display: inline-block;
+  margin-right: -5px;
+  position: relative;
+  padding: 15px 20px;
+  background: #0071b5;
+  cursor: pointer;
+  border-right: solid;
+  color: white;
+ 
+ 
 }
+ul li:hover {
+  background: #521466;
+  color: black;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 120px;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
 
+ 
+ 
+}
+ul li ul li { 
+  background: #0071b5; 
+  display: block; 
+ 
+  /*border-left: solid;*/
+  color: white;
+}
+ul li ul li:hover{
+	 background: #521466; 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
 
 
 
 footer {
-	font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;
+	/*font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;*/
 	color: black;
-	text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);
+	/*text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);*/
 	text-align: center;
 	color: black;
-	height: 60px;
-	clear:both;
+	clear: both;
 	width: 100%;
-	height: 50px;
-	margin-top: auto;
+	height: 200px;
+	/*margin-top: auto;*/
 	display:inline-block;
 	background-color: #ff66cc;
 }
 
 #copyright {
-	margin-top: 5px;
+	margin-top: 140px;
+	margin-left: 50px;
 	float: left;
-	margin: auto;
+	font-size: 16px;
 
 }
 
 #perks{
-	margin-top: 5px;
-	float: right;
-	margin: auto;
+	margin-top: 50px 50px;
+	
 }
-
-
-
 
 
 #instagram {
 	margin-top: 10px;
 	max-width: 25px;
 	max-height: 25px;
-	float: left;
+	/*float: left;*/
 	padding-right: 15px;
 
 	
@@ -104,7 +112,7 @@ footer {
 	margin-top: 10px;
 	max-width: 25px;
 	max-height: 25px;
-	float: left;
+	/*float: left;*/
 	padding-right: 15px;
 
 	
@@ -114,7 +122,7 @@ footer {
 	margin-top: 10px;
 	max-width: 25px;
 	max-height: 25px;
-	float: left;
+	/*float: left;*/
 	padding-right: 15px;
 
 	
