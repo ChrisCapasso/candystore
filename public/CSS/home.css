@@ -1,0 +1,13 @@
+#cycler {
+	position: relative;
+
+}
+
+#cycler img{
+	position: absolute;
+	z-index: 1;
+}
+
+#cycler img.active{
+	z-index: 3;
+}
