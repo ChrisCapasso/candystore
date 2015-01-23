@@ -6,23 +6,28 @@ body {
 nav {
 	margin-top: 30px;
 	padding-top: 10px;
+
 }
 
 #any {
 	font-family: Merienda;
-	font-size: 50px;
+	font-size: 52px;
 	padding-top: 0;
 	float: left;
+	color: lime;
+
 }
 
 #any h3 {
 	margin: 0 30px 0 30px;
+
 }
 
 header {
 /*	text-align: right;
 */	margin: 20px 30px 100px 0px;
 	clear: right;
+
 }
 
 
@@ -36,8 +41,6 @@ ul {
   /*margin: 0;*/
   padding: 15px 4px 15px 0;
   list-style: none;
-  
-
 }
 ul li {
   /*font: bold 18px sans-serif;*/
@@ -78,7 +81,7 @@ ul li ul li {
   color: white;
 }
 ul li ul li:hover{
-	 background: #521466; 
+	 background: #521466;
 }
 ul li:hover ul {
   display: block;
@@ -91,6 +94,7 @@ ul li:hover ul {
 }
 #three {
 	background-color: #573e99;
+
 }
 
 
@@ -110,7 +114,7 @@ footer {
 #footstuff {
 	margin-left: 50px;
 	float: left;
-	font-size: 16px;	
+	font-size: 16px;
 }
 
 #copyright {
