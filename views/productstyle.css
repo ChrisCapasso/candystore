@@ -1,11 +1,11 @@
- ul.product_list{
+ .product_list ul{
  	list-style-type: none;
  	margin: 0;
  	padding: 0;
  	text-align: center;
  }
 
- ul.product_list li {
+ .product_list ul li {
  	display: inline-block;
  	height: 150px;
  	margin: 0 1em 1em 0;
