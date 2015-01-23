@@ -7,6 +7,7 @@ body {
 header {
 	text-align: right;
 	margin: 30px 30px 0px 0px;
+
 }
 
 
@@ -22,20 +23,22 @@ ul {
 ul li {
   /*font: bold 18px sans-serif;*/
   display: inline-block;
-  margin-right: -5px;
+  margin-right: 15px;
   position: relative;
   padding: 15px 20px;
   background: #0071b5;
   cursor: pointer;
-  border-right: solid;
+  /*border-right: solid;*/
   color: white;
- 
+  width: 180px;
+  text-align: center;
  
 }
 ul li:hover {
-  background: #521466;
+  background: #0071b5;
   color: black;
 }
+/*#521466;*/
 ul li ul {
   padding: 0;
   position: absolute;
@@ -46,25 +49,26 @@ ul li ul {
   display: none;
   opacity: 0;
   visibility: hidden;
-
- 
- 
 }
 ul li ul li { 
   background: #0071b5; 
   display: block; 
- 
-  /*border-left: solid;*/
+ /*border-left: solid;*/
   color: white;
 }
 ul li ul li:hover{
 	 background: #521466; 
-
 }
 ul li:hover ul {
   display: block;
   opacity: 1;
   visibility: visible;
+}
+#one {
+	background-color: #00a17e;
+}
+#three {
+	background-color: #573e99;
 }
 
 
@@ -77,23 +81,29 @@ footer {
 	color: black;
 	clear: both;
 	width: 100%;
-	height: 200px;
+	height: 150px;
 	/*margin-top: auto;*/
 	display:inline-block;
-	background-color: #ff66cc;
+	background-color: #ffe000;
 }
 
 #copyright {
-	margin-top: 140px;
+	margin-top: 100px;
 	margin-left: 50px;
 	float: left;
-	font-size: 16px;
+	font-size: 14px;
 
 }
 
 #perks{
 	margin-top: 50px 50px;
 	
+}
+
+#footstuff {
+	margin-left: 50px;
+	float: left;
+	font-size: 16px;
 }
 
 
