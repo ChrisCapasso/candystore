@@ -1,6 +1,6 @@
 
 body {
-  font: 400 20px/1.5  Helvetica, sans-serif;   
+  font: 400 20px/1.5  Helvetica, sans-serif;  
 }
 
 nav {
@@ -16,6 +16,7 @@ nav {
 	float: left;
 	color: lime;
 }
+
 
 #any h3 {
 	margin: 0 30px 0 30px;
@@ -91,9 +92,10 @@ ul li:hover ul {
 }
 #three {
 	background-color: #573e99;
-
 }
-
+nav > ul > a {
+	text-decoration: none;
+}
 
 
 footer {
