@@ -1,4 +1,8 @@
 
+a {
+	color: white;
+}
+
 body {
   font: 400 20px/1.5  Helvetica, sans-serif;  
 }
@@ -20,6 +24,10 @@ nav {
 
 #any h3 {
 	margin: 0 30px 0 30px;
+}
+
+#any a {
+	color: purple;
 }
 
 header {
@@ -52,8 +60,6 @@ ul li {
   color: white;
   width: 180px;
   text-align: center;
-	
- 
 }
 ul li:hover {
   background: #0071b5;
@@ -93,9 +99,7 @@ ul li:hover ul {
 #three {
 	background-color: #573e99;
 }
-nav > ul > a {
-	text-decoration: none;
-}
+
 
 
 footer {
