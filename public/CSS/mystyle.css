@@ -4,6 +4,7 @@ a {
 }
 
 body {
+	width: 100%;
   font: 400 20px/1.5  Helvetica, sans-serif;  
 }
 nav {
@@ -566,13 +567,23 @@ z-index: 100;
 
 
 
-
-
+/*.container {	
+	background-image: url("/images/background1.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}*/
+.text-only {
+	margin-left: 100px;
+	margin:right 100px;
+}
 .about-us-text {
+	background-color: white;
 	font-style: Helvetica, sans-serif;
 	font-size: 18px;
-	margin-left: 150px;
-	margin-right: 150px;
-
+	margin-left: 160px;
+	margin-right: 160px;
+	opacity: .9;
 }
+
+
 
