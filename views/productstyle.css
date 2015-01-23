@@ -1,0 +1,52 @@
+ .product_list ul{
+ 	list-style-type: none;
+ 	margin: 0;
+ 	padding: 0;
+ 	text-align: center;
+ }
+
+ .product_list ul li {
+ 	display: inline-block;
+ 	height: 150px;
+ 	margin: 0 1em 1em 0;
+ 	position: relative;
+ 	width: 150px;
+ }
+
+ span.text_content {
+ 	background: rgba(0,0,0,0.5);
+ 	color: white;
+ 	cursor: pointer;
+ 	display: table;
+ 	height: 150px;
+ 	left: 0;
+ 	position: absolute;
+ 	top: 0;
+ 	width: 150px;
+ 	opacity: 0;
+ 	-webkit-transition: opacity 500ms;
+ 	transition: opacity 500ms;
+
+
+ }
+ul.product_list li:hover span.text_content {
+	opacity: 1;
+	
+}
+
+ span.text_content span {
+ 	display: table-cell;
+ 	text-align: center;
+ 	vertical-align: middle;
+ }
+
+
+
+
+
+
+
+
+
+ 
+

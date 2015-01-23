@@ -9,5 +9,5 @@ function cycleImages(){
 }
 
 $(document).ready(function(){
-	setInterval('cycleImages()', 7000);
+	setInterval('cycleImages()', 4000);
 })
