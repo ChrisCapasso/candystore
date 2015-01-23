@@ -1,31 +1,38 @@
 
-body {
-  font: 400 20px/1.5  Helvetica, sans-serif;   
+a {
+	color: white;
 }
 
+body {
+  font: 400 20px/1.5  Helvetica, sans-serif;  
+}
 nav {
 	margin-top: 30px;
 	padding-top: 10px;
+
 }
 
 #any {
 	font-family: Merienda;
-	font-size: 50px;
+	font-size: 52px;
 	padding-top: 0;
 	float: left;
-	text-decoration: none;
+	color: lime;
 }
+
 
 #any h3 {
 	margin: 0 30px 0 30px;
-	text-decoration: none;
+}
+
+#any a {
+	color: purple;
 }
 
 header {
 /*	text-align: right;
 */	margin: 20px 30px 100px 0px;
 	clear: right;
-	text-decoration: none;
 }
 
 
@@ -39,8 +46,6 @@ ul {
   /*margin: 0;*/
   padding: 15px 4px 15px 0;
   list-style: none;
-  
-
 }
 ul li {
   /*font: bold 18px sans-serif;*/
@@ -54,8 +59,6 @@ ul li {
   color: white;
   width: 180px;
   text-align: center;
-	
- 
 }
 ul li:hover {
   background: #0071b5;
@@ -81,7 +84,7 @@ ul li ul li {
   color: white;
 }
 ul li ul li:hover{
-	 background: #521466; 
+	 background: #521466;
 }
 ul li:hover ul {
   display: block;
@@ -99,7 +102,7 @@ ul li:hover ul {
 
 
 footer {
-	/*font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;*/
+	font: 400 15px/1.5 'Pacifico', Helvetica, sans-serif;
 	/*text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);*/
 	/*text-align: center;*/
 	clear: both;
@@ -113,7 +116,7 @@ footer {
 #footstuff {
 	margin-left: 50px;
 	float: left;
-	font-size: 16px;	
+	font-size: 16px;
 }
 
 #copyright {
@@ -124,6 +127,8 @@ footer {
 }
 
 #perks{
+		font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;
+
 	text-align: center;
 	float: right;
 	margin-right: 50px;
@@ -135,7 +140,7 @@ footer {
 	margin-top: 10px;
 	max-width: 25px;
 	max-height: 25px;
-	/*float: left;*/
+	float: left;
 	padding-right: 15px;
 
 }
@@ -145,7 +150,7 @@ footer {
 	margin-top: 10px;
 	max-width: 25px;
 	max-height: 25px;
-	/*float: left;*/
+	float: left;
 	padding-right: 15px;
 	
 }
@@ -154,15 +159,15 @@ footer {
 	margin-top: 10px;
 	max-width: 25px;
 	max-height: 25px;
-	/*float: left;*/
+	float: left;
 	padding-right: 15px;
 
 }
 
 #cycler {
 	position: relative;
-	height: 400px;
-	width: 500px;
+	height: 500px;
+	width: 750px;
 	margin: auto;
 	padding: 10px;
 }
@@ -170,8 +175,8 @@ footer {
 #cycler img{
 	position: absolute;
 	z-index: 1;
-	height: 400px;
-	width: 500px;
+	height: 500px;
+	width: 750px;
 	margin: auto;
 }
 
@@ -180,7 +185,7 @@ footer {
 }
 
 .slide-holder {
-	width: 650px;
+	width: 800px;
 	margin: 0 auto;
 }
 

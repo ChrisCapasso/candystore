@@ -15,29 +15,29 @@
 
 <header>
 	<div id="any">
-		<a href="/"><h3>It's Candy!!</h3></a>
+		<a STYLE="text-decoration:none" href="/"><h3> It's Candy!!</h3></a>
 	</div>
 	<nav>
 		<ul>
-			<li id="one">All Treats!
+			<a STYLE="text-decoration:none" href="/product_page"><li id="one">All Treats!
 				<ul>
 					<li>Truffles</li>
 					<li>Lollipops</li>
-					<li>Gourmet Popcorn</li>
+					<li>Gourmet Popcorn</li></a>
 				</ul>
 			</li>
-			<li>World of Candy!
+			<a STYLE="text-decoration:none" href="/about_us"><li>World of Candy!
 				<ul>
 					<li>Our Story</li>
-					<li>Inspiration</li>
+					<li>Inspiration</li></a>
 				</ul>
 			</li>
-		  <li id ="three">Get in Touch!
+		  <a STYLE="text-decoration:none" href="/contact"><li id ="three">Get in Touch!
 		    <ul>
 		      <li>Contact us!</li>
-		      <li>Directions</li>
+		      <li>Directions</li></a>
 			</ul>
-	 
+	 		</li>
 		</ul>
 	</nav>
 </header>
@@ -45,21 +45,22 @@
 	<%= yield %>
 
 	<footer>
-		<p id="perks">Join us for sweet perks!</p>
-		<div id="footstuff">
-			<p><a href="#">Your Account</a></p>
-			<p><a href="#">Life At It's Candy</a></p>
-			<p><a href="#">Find Our Treats At (Or Store Locator)</a></p>
-		</div>
-
-		<div>
-			<p id="copyright">Copyright 2015 It's Candy!</p>
-		</div>
-
+		<a STYLE="text-decoration:none" href="/contact"><p id="perks">Join us for sweet perks!</p></a>
 		<div>
 			<a href="www.facebook.com"><img src="images/facebook_logo.jpg" id="facebook"></a>
 			<a href="www.instagram.com"><img src="images/instagram.jpeg" id="instagram"></a>
 			<a href="www.twitter.com"><img src="images/twitter-big.png" id="twitter"></a>
+		</div>
+		<a href="/contact"><p id="perks">Join us for sweet perks!</p></a>
+
+		<div id="footstuff">
+			<p><a STYLE="text-decoration:none" href="/product_page">Your Account</a></p>
+			<p><a STYLE="text-decoration:none" href="/about_us">Life At It's Candy</a></p>
+			<p><a STYLE="text-decoration:none" href="/about_us">Find Our Treats At</a></p>
+		</div>
+
+		<div>
+			<p id="copyright">©2015 It's Candy!</p>
 		</div>
 	</footer>
 </body>
