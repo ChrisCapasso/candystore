@@ -138,6 +138,23 @@ footer {
 	
 }
 
+#cycler {
+	position: relative;
+	height: 500px;
+	width: 600px;
+
+}
+
+#cycler img{
+	position: absolute;
+	z-index: 1;
+	height: 500px;
+	width: 600px;
+}
+
+#cycler img.active{
+	z-index: 3;
+}
 
 
 
