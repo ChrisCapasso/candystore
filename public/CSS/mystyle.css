@@ -1,17 +1,36 @@
 
 body {
-  font: 400 20px/1.5  Helvetica, sans-serif;
-   
+  font: 400 20px/1.5  Helvetica, sans-serif;   
+}
+
+nav {
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+#any {
+	font-family: Merienda;
+	font-size: 50px;
+	padding-top: 0;
+	float: left;
+}
+
+#any h3 {
+	margin: 0 30px 0 30px;
 }
 
 header {
-	text-align: right;
-	margin: 30px 30px 0px 0px;
-
+/*	text-align: right;
+*/	margin: 20px 30px 100px 0px;
+	clear: right;
 }
 
 
- ul {
+
+/*ul {
+  clear: left;
+}*/
+ul {
   text-align: left;
   display: inline;
   /*margin: 0;*/
@@ -32,6 +51,7 @@ ul li {
   color: white;
   width: 180px;
   text-align: center;
+	
  
 }
 ul li:hover {
@@ -49,6 +69,7 @@ ul li ul {
   display: none;
   opacity: 0;
   visibility: hidden;
+  z-index: 5;
 }
 ul li ul li { 
   background: #0071b5; 
@@ -64,6 +85,7 @@ ul li:hover ul {
   opacity: 1;
   visibility: visible;
 }
+
 #one {
 	background-color: #00a17e;
 }
@@ -75,35 +97,34 @@ ul li:hover ul {
 
 footer {
 	/*font: 400 20px/1.5 'Pacifico', Helvetica, sans-serif;*/
-	color: black;
 	/*text-shadow: 3px 3px 0px rgba(0,0,0,0.1), 7px 7px 0px rgba(0,0,0,0.05);*/
-	text-align: center;
-	color: black;
+	/*text-align: center;*/
 	clear: both;
 	width: 100%;
-	height: 150px;
+	height: 190px;
 	/*margin-top: auto;*/
-	display:inline-block;
+	/*display: inline-block;*/
 	background-color: #ffe000;
+	margin-top: 100px;	
+}
+#footstuff {
+	margin-left: 50px;
+	float: left;
+	font-size: 16px;	
 }
 
 #copyright {
 	margin-top: 100px;
 	margin-left: 50px;
-	float: left;
+	clear: both;
 	font-size: 14px;
-
 }
 
 #perks{
-	margin-top: 50px 50px;
-	
-}
+	text-align: center;
+	float: right;
+	margin-right: 50px;
 
-#footstuff {
-	margin-left: 50px;
-	float: left;
-	font-size: 16px;
 }
 
 
@@ -114,7 +135,6 @@ footer {
 	/*float: left;*/
 	padding-right: 15px;
 
-	
 }
 
 #facebook {
@@ -124,7 +144,6 @@ footer {
 	max-height: 25px;
 	/*float: left;*/
 	padding-right: 15px;
-
 	
 }
 
@@ -135,7 +154,6 @@ footer {
 	/*float: left;*/
 	padding-right: 15px;
 
-	
 }
 
 #cycler {
@@ -158,7 +176,10 @@ footer {
 	z-index: 3;
 }
 
-
+.slide-holder {
+	width: 650px;
+	margin: 0 auto;
+}
 
 
 
