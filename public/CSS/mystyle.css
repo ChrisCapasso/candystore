@@ -26,12 +26,11 @@ header {
 }
 
 
-<<<<<<< HEAD
-ul {
+
+/*ul {
   clear: left;
-=======
- ul {
->>>>>>> a32e61148dfefe51c294fd3db630a1b9126b426d
+}*/
+ul {
   text-align: left;
   display: inline;
   /*margin: 0;*/
@@ -102,7 +101,7 @@ footer {
 	/*text-align: center;*/
 	clear: both;
 	width: 100%;
-	height: 170px;
+	height: 190px;
 	/*margin-top: auto;*/
 	/*display: inline-block;*/
 	background-color: #ffe000;
