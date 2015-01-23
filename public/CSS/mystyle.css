@@ -13,16 +13,19 @@ nav {
 	font-size: 50px;
 	padding-top: 0;
 	float: left;
+	text-decoration: none;
 }
 
 #any h3 {
 	margin: 0 30px 0 30px;
+	text-decoration: none;
 }
 
 header {
 /*	text-align: right;
 */	margin: 20px 30px 100px 0px;
 	clear: right;
+	text-decoration: none;
 }
 
 
